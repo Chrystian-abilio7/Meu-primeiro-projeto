@@ -3,14 +3,14 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    
- }
- 
- 
+
+    }
+
+
     header {
         margin: 44px 0px 144px 76px;
         text-transform: uppercase;
-        
+
     }
 
     .link-header {
@@ -21,7 +21,7 @@
         cursor: pointer;
         margin-right: 23px;
     }
-   
+
     #login {
         background: #665ae1;
         border-radius: 20.5px;
@@ -34,23 +34,23 @@
         color: #FFFFFF;
         cursor: pointer;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        
+
     }
 
 
     .img {
         width: 568px;
-        height: 500px;  
+        height: 500px;
         margin-left: 125px;
         display: inline-block;
-}
+    }
 
     section {
         margin-left: 86px;
         display: inline-block;
 
 
-}
+    }
 
 
     h1 {
@@ -58,25 +58,26 @@
         font-size: 100px;
         line-height: 122px;
         color: #515151;
-}
+    }
 
     h2 {
         font-weight: 500;
         font-size: 58px;
         line-height: 71px;
         color: #515151;
-}
- 
+    }
+
     p {
         width: 515px;
         font-weight: 400;
         font-size: 24px;
         line-height: 29px;
-        color: #848484;;
+        color: #848484;
+        ;
         margin-top: 32px;
         margin-bottom: 65px;
-    
-}
+
+    }
 
     .explore {
         background: #adff00;
@@ -90,65 +91,125 @@
         font-size: 28px;
         line-height: 34px;
         color: #000000;
-}
+    }
 
     @media screen and (max-width: 390px) {
-    p {
-        display: none;
-    
-}    
+        p {
+            display: none;
 
-    header{
-    display: none;
-}
+        }
 
-    main {
-        max-width: 300px;
-        margin: 0px;
-        text-align: center;
-        height: 100px;
-}
-    .img {
-        width: 354px;
-        height: 317px;
-        display: block;
-        margin-top: 149px;
-        margin-left: 14px;
-        margin-right: 22px;
-}
+        header {
+            display: none;
+        }
 
-    h1 {
-        font-size: 50px;
-        width: 263px;
-        height: 52px;
-        margin-bottom: 20px;
+        main {
+            max-width: 300px;
+            margin: 0px;
+            text-align: center;
+            height: 100px;
+        }
 
-}
+        .img {
+            width: 354px;
+            height: 317px;
+            display: block;
+            margin-top: 149px;
+            margin-left: 14px;
+            margin-right: 22px;
+        }
 
-    section {
-        margin-left: 70px;
+        h1 {
+            font-size: 50px;
+            width: 263px;
+            height: 52px;
+            margin-bottom: 20px;
 
-}
+        }
 
-    h2 {
-        font-size: 30px;
-        width: 232px;
-        height: 37px;
-        margin-left: 15px;
+        section {
+            margin-left: 70px;
 
-}
+        }
 
-    #login {
-        width: 239px;
-        height: 64px;
-        position: absolute;
-        right: 50%
-}
+        h2 {
+            font-size: 30px;
+            width: 232px;
+            height: 37px;
+            margin-left: 15px;
 
-button{
-    margin-top: 35px;
-    color: #000000;
-    text-transform: uppercase;
-}
+        }
 
-}
+        #login {
+            width: 239px;
+            height: 64px;
+            position: absolute;
+            right: 50%
+        }
+
+        button {
+            margin-top: 35px;
+            color: #000000;
+            text-transform: uppercase;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        p {
+            display: none;
+        }
+
+        header {
+            display: none;
+        }
+
+        main {
+            max-width: 300px;
+            margin: 0px;
+            text-align: center;
+            height: 100px;
+        }
+
+        .img {
+            width: 370px;
+            height: 330px;
+            display: block;
+            margin-top: 100px;
+            margin-left: 22px;
+            margin-right: 22px;
+        }
+
+        h1 {
+            font-size: 50px;
+            width: 263px;
+            height: 52px;
+            margin-bottom: 30px;
+            text-align: center;
+
+        }
+
+        section {
+            margin-left: 70px;
+
+        }
+
+        h2 {
+            font-size: 30px;
+            width: 232px;
+            height: 37px;
+            margin-left: 15px;
+            text-align: center;
+
+        }
+
+        #login {
+            width: 239px;
+            height: 64px;
+            position: absolute;
+            right: 50%
+        }
+
+        .explore {
+            margin-top: 40px;
+        }
+    }
