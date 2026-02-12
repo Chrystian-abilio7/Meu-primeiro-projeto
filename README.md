@@ -1,6 +1,10 @@
 
 
-<b>Olá! Me chamo Chrystian e esse foi o primeiro projeto que fiz utilizando:</b>
+<h1>We care</h1>
+
+ Esse foi meu primeiro projeto simples que fiz, com o propósito de conhecer mais as tecnologias utilizadas.<br>
+ Nele eu treinei a responsividade de telas com a largura normal de um computador indo até para larguras<br>
+ de telas com 480px e 390px.
   - HTML
   - CSS
 
