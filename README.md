@@ -4,7 +4,7 @@
 
  Esse foi meu primeiro projeto simples que fiz, com o propósito de conhecer mais as tecnologias utilizadas.<br>
  Nele eu treinei a responsividade de telas com a largura normal de um computador normal indo até para larguras<br>
- de telas com 480px e 390px.
+ de telas com 480px.
   - HTML
   - CSS
 
